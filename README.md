@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust: creating multiple mutable references to the same variable which leads to a data race.  The `bug.rs` file contains the buggy code, and `bugSolution.rs` provides a correct version illustrating how to avoid this problem using techniques like cloning or using interior mutability (e.g., `RefCell` or `Mutex`).
